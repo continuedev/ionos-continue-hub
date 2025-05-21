@@ -1,0 +1,13 @@
+---
+name: Llama-3.3 70B Instruct
+version: 1.0.0
+models:
+- name: Llama-3.3 70B Instruct
+  provider: openai
+  model: meta-llama/Llama-3.3-70B-Instruct
+  apiKey: ${{ inputs.IONOS_API_KEY }}
+  apiBase:  https://openai.inference.de-txl.ionos.com/v1
+  roles:
+    - chat
+    - edit
+    - apply

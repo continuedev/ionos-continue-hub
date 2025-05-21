@@ -1,0 +1,13 @@
+---
+name: Teuken 7B Instruct Commercial
+version: 1.0.0
+models:
+- name: Teuken 7B Instruct Commercial
+  provider: openai
+  model: openGPT-X/Teuken-7B-instruct-commercial
+  apiKey: ${{ inputs.IONOS_API_KEY }}
+  apiBase:  https://openai.inference.de-txl.ionos.com/v1
+  roles:
+    - chat
+    - edit
+    - apply

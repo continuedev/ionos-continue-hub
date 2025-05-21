@@ -1,0 +1,11 @@
+---
+name: BGE Large English v1.5
+version: 1.0.0
+models:
+- name: BGE Large English v1.5
+  provider: openai
+  model: BAAI/bge-large-en-v1.5
+  apiKey: ${{ inputs.IONOS_API_KEY }}
+  apiBase:  https://openai.inference.de-txl.ionos.com/v1
+  roles:
+    - embed

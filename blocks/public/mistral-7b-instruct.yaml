@@ -1,0 +1,13 @@
+---
+name: Mistral 7B Instruct v0.3
+version: 1.0.0
+models:
+- name: Mistral 7B Instruct v0.3
+  provider: openai
+  model: mistralai/Mistral-7B-Instruct-v0.3
+  apiKey: ${{ inputs.IONOS_API_KEY }}
+  apiBase:  https://openai.inference.de-txl.ionos.com/v1
+  roles:
+    - chat
+    - edit
+    - apply

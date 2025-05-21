@@ -1,0 +1,13 @@
+---
+name: Mixtral 8x7B Instruct v0.1
+version: 1.0.0
+models:
+- name: Mixtral 8x7B Instruct v0.1
+  provider: openai
+  model: mistralai/Mixtral-8x7B-Instruct-v0.1
+  apiKey: ${{ inputs.IONOS_API_KEY }}
+  apiBase:  https://openai.inference.de-txl.ionos.com/v1
+  roles:
+    - chat
+    - edit
+    - apply

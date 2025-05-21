@@ -1,0 +1,13 @@
+---
+name: CodeLlama 13B Instruct
+version: 1.0.0
+models:
+- name: CodeLlama 13B Instruct
+  provider: openai
+  model: meta-llama/CodeLlama-13b-Instruct-hf
+  apiKey: ${{ inputs.IONOS_API_KEY }}
+  apiBase:  https://openai.inference.de-txl.ionos.com/v1
+  roles:
+    - chat
+    - edit
+    - apply

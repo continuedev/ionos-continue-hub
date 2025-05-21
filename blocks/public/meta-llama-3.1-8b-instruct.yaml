@@ -1,0 +1,13 @@
+---
+name: Meta-Llama-3.1 8B Instruct
+version: 1.0.0
+models:
+- name: Meta-Llama-3.1 8B Instruct
+  provider: openai
+  model: meta-llama/Meta-Llama-3.1-8B-Instruct
+  apiKey: ${{ inputs.IONOS_API_KEY }}
+  apiBase:  https://openai.inference.de-txl.ionos.com/v1
+  roles:
+    - chat
+    - edit
+    - apply

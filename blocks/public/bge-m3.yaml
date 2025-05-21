@@ -1,0 +1,11 @@
+---
+name: BGE M3
+version: 1.0.0
+models:
+- name: BGE M3
+  provider: openai
+  model: BAAI/bge-m3
+  apiKey: ${{ inputs.IONOS_API_KEY }}
+  apiBase:  https://openai.inference.de-txl.ionos.com/v1
+  roles:
+    - embed

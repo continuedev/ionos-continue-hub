@@ -1,0 +1,13 @@
+---
+name: Mistral Nemo Instruct 2407
+version: 1.0.0
+models:
+- name: Mistral Nemo Instruct 2407
+  provider: openai
+  model: mistralai/Mistral-Nemo-Instruct-2407
+  apiKey: ${{ inputs.IONOS_API_KEY }}
+  apiBase:  https://openai.inference.de-txl.ionos.com/v1
+  roles:
+    - chat
+    - edit
+    - apply
